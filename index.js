@@ -90,7 +90,7 @@ const server = http.createServer((req, res) => {
     }
   });
 
-  console.log(filePath);
+  // console.log(filePath);
 });
 
 const PORT = process.env.PORT || 5000;
